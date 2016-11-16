@@ -1,0 +1,22 @@
+{
+  "name": "interactive/http",
+  "description": "Simulate an HTTP Workflow in easy way",
+  "keywords": ["http", "request", "response"],
+  "license" : "MIT",
+  "version" : "0.0.1",
+  "authors" : [
+    {
+      "name": "Irzhy Ranaivoarivony",
+      "email": "me@irzhy.me",
+      "homepage": "http://irzhy.me"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Interactive\\Http\\": "src/"
+    }
+  }
+}
